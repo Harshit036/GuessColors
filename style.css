@@ -1,34 +1,42 @@
-.heading{
+.heading {
     text-align: center;
 }
-#result{
+
+#result {
     margin-top: 30px;
 }
-.buttons{
-    margin-top: 100px;
+
+.buttons {
+    margin-top: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.butt{
+
+.butt {
     margin: 10px;
     padding: 10px;
+    background-color: chartreuse;
+    border-radius: 14px;
+    border-color: aliceblue;
 }
 
-
-.boxes{
+.boxes {
     margin-top: 100px;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-.item{
+.item {
     /* padding: 90px; */
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background-color: rgb(43, 226, 104);
     color: coral;
-    
+}
+
+.item:hover {
+    border: 2px solid rgb(116, 184, 248);
 }
