@@ -1,0 +1,34 @@
+.heading{
+    text-align: center;
+}
+#result{
+    margin-top: 30px;
+}
+.buttons{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.butt{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.boxes{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    /* padding: 90px; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(43, 226, 104);
+    color: coral;
+    
+}
